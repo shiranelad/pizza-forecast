@@ -1,0 +1,30 @@
+// here goes generic styles for elements h1, buttons...
+* {
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0;
+  &.gradient{
+    background: linear-gradient(rgb(0, 11, 76),rgb(74, 95, 255));
+  }
+}
+
+html {
+  color: #000;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+}

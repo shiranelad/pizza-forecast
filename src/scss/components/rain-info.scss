@@ -1,0 +1,18 @@
+.rain-info{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    h2, h4 {
+        font-family: 'Mulish 700', sans-serif;
+    }
+
+    @media (max-width: 650px){
+        h2 {
+            margin-top:60px;
+        }
+    }
+}
