@@ -13,7 +13,7 @@ export const bugService = {
 async function getBugs() {
     var currTime = new Date()
     if (currTime.getHours() >= DUE_HOUR) return
-    const bugs = await axios.get('http://www.randomnumberapi.com/api/v1.0/random?min=1&max=99&count=1&cors=true')
+    const bugs = await axios.get('https://www.randomnumberapi.com/api/v1.0/random?min=1&max=99&count=1&cors=true')
     return +bugs.data[0];
 }
 
